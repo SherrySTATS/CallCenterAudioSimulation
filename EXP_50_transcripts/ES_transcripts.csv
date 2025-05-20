@@ -1,0 +1,1707 @@
+Scenario,Topic,Summary,Sentiment,Transcripts
+Scenario 1,Fraud,Customer reports an unauthorized $325 transaction. The agent blocks the card and initiates a fraud investigation.,Concerned,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es María. ¿En qué puedo ayudarte hoy?
+
+Cliente:
+Hola, acabo de recibir un mensaje sobre una transacción sospechosa en mi tarjeta de débito.
+
+Agente:
+Entiendo. Permíteme ayudarte con eso. ¿Podrías verificar tu nombre completo y los últimos cuatro dígitos de tu tarjeta de débito?
+
+Cliente:
+Sí, soy Juan Pérez, y los últimos cuatro dígitos son 4321.
+
+Agente:
+Gracias, Juan. Veo un intento de transacción por $325 en Electronic City el 17 de mayo. ¿Autorizaste esta transacción?
+
+Cliente:
+No, yo no hice esa compra.
+
+Agente:
+De acuerdo. Voy a marcar esta transacción como no autorizada. Para garantizar tu seguridad, bloquearemos la tarjeta actual y te emitiremos una nueva. La recibirás en 5 a 7 días hábiles. Mientras tanto, ¿te gustaría que iniciemos el proceso de investigación y disputa por esta transacción?
+
+Cliente:
+Sí, por favor.
+
+Agente:
+Perfecto. Procederé con el proceso de disputa y te proporcionaré un número de referencia. ¿Hay alguna otra preocupación o transacción que te gustaría revisar?
+
+Cliente:
+No, eso es todo.
+
+Agente:
+Muy bien, Juan. Tu número de referencia es 654321. Por favor, guárdalo para futuras referencias. Si notas alguna otra actividad sospechosa, no dudes en contactarnos. Gracias por elegir Not-a-real Bank. ¡Que tengas un buen día!"
+Scenario 2,Account Access,Customer’s card was declined due to insufficient funds. Transfer initiated to cover the deficit.,Frustrated,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Pablo. ¿En qué puedo ayudarte hoy?
+
+Cliente:
+Hola, mi tarjeta fue rechazada cuando intenté hacer un pago en el supermercado.
+
+Agente:
+Lamento escuchar eso. Déjame revisar tu cuenta. ¿Podrías proporcionarme tu nombre completo y los últimos cuatro dígitos de tu tarjeta de débito?
+
+Cliente:
+Claro. Soy Emilia Gómez. Los últimos cuatro dígitos son 5678.
+
+Agente:
+Gracias, Emilia. Veo que tu saldo actual es de $45.70, pero el monto de la transacción era de $60. Por eso la tarjeta fue rechazada.
+
+Cliente:
+Oh, pensaba que tenía más dinero en la cuenta. ¿Hay alguna forma de cubrir la transacción?
+
+Agente:
+Sí, tenemos dos opciones:
+
+    Puedes transferir fondos desde otra cuenta para cubrir la diferencia.
+
+    Podemos activar la protección contra sobregiros para futuras transacciones.
+
+¿Te gustaría proceder con alguna de estas opciones?
+
+Cliente:
+Vamos a hacer la transferencia. Tengo dinero en mi cuenta de ahorros.
+
+Agente:
+De acuerdo. ¿Cuánto deseas transferir?
+
+Cliente:
+$70.
+
+Agente:
+Perfecto. La transferencia está completa y tu tarjeta ahora está disponible para usar. ¿Hay algo más en lo que te pueda ayudar?
+
+Cliente:
+No, eso es todo. Gracias por tu ayuda.
+
+Agente:
+De nada, Emilia. Que tengas un excelente día y gracias por confiar en Not-a-real Bank."
+Scenario 3,Security,Customer reports a suspicious login from another location. The agent locks the account and resets the password.,Anxious,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Linda. ¿En qué puedo ayudarte hoy?
+
+Cliente:
+Hola, acabo de recibir un mensaje diciendo que alguien inició sesión en mi cuenta bancaria en línea. No fui yo.
+
+Agente:
+Entendido. Vamos a revisar esto. ¿Podrías confirmar tu nombre completo y los últimos cuatro dígitos de tu cuenta?
+
+Cliente:
+Soy Miguel Chen, y los últimos cuatro son 7890.
+
+Agente:
+Gracias, Miguel. Veo que hubo un intento de inicio de sesión desde un dispositivo no reconocido en San Francisco a las 3:20 PM hoy. ¿Estabas en esa ubicación?
+
+Cliente:
+No, yo estoy en Nueva York.
+
+Agente:
+Entendido. Voy a colocar un bloqueo temporal en tu cuenta para evitar más accesos no autorizados. También reiniciaremos tu contraseña y te enviaremos una nueva por correo electrónico en los próximos 15 minutos.
+
+Cliente:
+De acuerdo. ¿Y qué pasa con ese inicio de sesión no autorizado?
+
+Agente:
+Vamos a iniciar una investigación para verificar si hubo alguna transacción no autorizada. Si encontramos algo, te contactaremos de inmediato.
+
+Cliente:
+Perfecto. Gracias por tu ayuda.
+
+Agente:
+De nada, Miguel. Mantente atento a tu correo electrónico. Si ves algo sospechoso, llámanos de inmediato."
+Scenario 4,Account Management,Customer requests a statement for the past three months. The agent emails a PDF copy.,Neutral,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Daniel. ¿En qué puedo ayudarte hoy?
+
+Cliente:
+Hola, necesito una copia de mi extracto bancario de los últimos tres meses.
+
+Agente:
+Claro. ¿Puedes confirmar tu nombre completo y los últimos cuatro dígitos de tu cuenta?
+
+Cliente:
+Sí, soy Sara Lee, y los últimos cuatro son 1234.
+
+Agente:
+Gracias, Sara. ¿Te gustaría que el extracto te lo enviemos por correo electrónico o por correo postal?
+
+Cliente:
+Correo electrónico está bien.
+
+Agente:
+Perfecto. Recibirás el extracto en formato PDF en los próximos 10 minutos. Si no lo ves, revisa tu carpeta de correo no deseado.
+
+Cliente:
+¿Y puedo recibirlo en papel si lo necesito?
+
+Agente:
+Sí, también podemos enviarte una copia impresa. Solo házmelo saber y procederé.
+
+Cliente:
+No, el correo electrónico está bien. Gracias.
+
+Agente:
+De nada, Sara. Si necesitas algo más, estamos aquí para ayudarte. Que tengas un excelente día."
+Scenario 5,Credit,Customer requests a credit limit increase. Income verified and application submitted for review.,Hopeful,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Laura. ¿En qué puedo ayudarte hoy?
+
+Cliente:
+Hola, me gustaría solicitar un aumento en el límite de mi tarjeta de crédito.
+
+Agente:
+Claro. ¿Puedes proporcionarme tu nombre completo y los últimos cuatro dígitos de tu tarjeta de crédito?
+
+Cliente:
+Soy David Johnson, y los últimos cuatro son 5678.
+
+Agente:
+Gracias, David. Tu límite actual es de $2,000. ¿Cuánto estás solicitando como aumento?
+
+Cliente:
+Quisiera aumentarlo a $4,000.
+
+Agente:
+Entendido. Antes de proceder, necesito verificar algunos datos. ¿Ha cambiado tu ingreso recientemente?
+
+Cliente:
+Sí, ahora gano $75,000 al año.
+
+Agente:
+Excelente. He actualizado tu información. Solicitar un aumento puede resultar en una consulta de crédito dura, lo que podría afectar temporalmente tu puntaje. ¿Quieres proceder?
+
+Cliente:
+Sí, está bien.
+
+Agente:
+Perfecto. La solicitud ha sido enviada. Recibirás una respuesta en 1-2 días hábiles.
+
+Cliente:
+Gracias, Laura.
+
+Agente:
+De nada, David. Que tengas un gran día y gracias por confiar en Not-a-real Bank."
+Scenario 6,Loans,Customer seeks a loan payment extension due to financial hardship. Extension granted for two weeks.,Worried,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Jason. ¿En qué puedo ayudarte hoy?
+
+Cliente (preocupado):
+Hola, estoy teniendo problemas financieros este mes y quería ver si puedo extender la fecha de pago de mi préstamo.
+
+Agente:
+Lamento escuchar eso. Déjame ver qué opciones tenemos. ¿Puedes confirmarme tu nombre completo y el número de tu cuenta de préstamo?
+
+Cliente:
+Soy Michelle Nguyen, y el número de préstamo es 987654.
+
+Agente:
+Gracias, Michelle. Tu pago actual de $300 vence el 15 de mayo. ¿Hasta cuándo necesitas extenderlo?
+
+Cliente:
+Solo un par de semanas, hasta finales de mes.
+
+Agente:
+Perfecto. Podemos conceder una extensión hasta el 31 de mayo. Sin embargo, habrá una tarifa de $25, que se sumará a tu próximo pago. ¿Quieres proceder?
+
+Cliente:
+Sí, por favor.
+
+Agente:
+Listo. La nueva fecha de vencimiento es el 31 de mayo. Recibirás un correo electrónico de confirmación en breve. Si necesitas algo más, házmelo saber.
+
+Cliente:
+Eso es todo. Muchas gracias.
+
+Agente:
+De nada, Michelle. Que tengas un buen día y gracias por confiar en Not-a-real Bank."
+Scenario 7,Account Management,Customer requests to close a savings account. Balance will be sent via check.,Neutral,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Nancy. ¿En qué puedo ayudarte hoy?
+
+Cliente:
+Hola, quiero cerrar mi cuenta de ahorros.
+
+Agente:
+Lamento escuchar eso. ¿Podrías decirme el motivo del cierre?
+
+Cliente:
+Me estoy mudando a otro estado y voy a cambiar a un banco local.
+
+Agente:
+Entendido. Antes de proceder, ¿puedes confirmar tu nombre completo y los últimos cuatro dígitos de tu cuenta?
+
+Cliente:
+Soy Robert King, y los últimos cuatro son 4321.
+
+Agente:
+Gracias, Robert. Tu saldo actual es de $125.50. ¿Quieres que te enviemos el saldo restante en un cheque por correo o transferirlo a otra cuenta?
+
+Cliente:
+Envíenme un cheque, por favor.
+
+Agente:
+Muy bien. El cheque será enviado a la dirección que tenemos en archivo en los próximos 5-7 días hábiles. ¿Quieres que confirme la dirección antes de enviarlo?
+
+Cliente:
+Sí, por favor.
+
+Agente:
+Tenemos 456 Main Street, Apt 12B, Columbus, OH 43215. ¿Es correcto?
+
+Cliente:
+Sí, es correcto.
+
+Agente:
+Perfecto, Robert. Tu cuenta será cerrada hoy y el cheque estará en camino. Si alguna vez decides volver a Not-a-real Bank, estaremos aquí para ayudarte.
+
+Cliente:
+Gracias por tu ayuda.
+
+Agente:
+De nada, Robert. ¡Que tengas un excelente día!"
+Scenario 8,Fees,Customer disputes a $35 late fee. The agent initiates a review and requests a waiver.,Frustrated,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Tom. ¿En qué puedo ayudarte hoy?
+
+Cliente (molesto):
+Hola, acabo de ver una tarifa de $35 en mi estado de cuenta por un pago atrasado. Pero yo pagué a tiempo.
+
+Agente:
+Lamento escuchar eso. Vamos a revisar tu cuenta. ¿Puedes confirmarme tu nombre completo y los últimos cuatro dígitos de tu tarjeta?
+
+Cliente:
+Soy Lisa Adams, y los últimos cuatro son 6789.
+
+Agente:
+Gracias, Lisa. Veo que la tarifa se aplicó el 12 de mayo porque el pago mínimo se recibió tres días después de la fecha de vencimiento, que era el 10 de mayo.
+
+Cliente:
+Pero yo programé el pago el 10 de mayo.
+
+Agente:
+Entendido. Déjame verificar el historial de transacciones. (pausa) Veo que el pago se registró el 13 de mayo, lo que explica la tarifa.
+
+Cliente:
+Eso no tiene sentido. Yo hice el pago el día 10.
+
+Agente:
+Entiendo tu frustración. Puedo iniciar una revisión para verificar la fecha exacta en que se envió el pago. Además, como es tu primera tarifa por pago atrasado, puedo solicitar una exención como cortesía. ¿Quieres que proceda?
+
+Cliente:
+Sí, por favor.
+
+Agente:
+Listo. La solicitud ha sido enviada. Recibirás una respuesta en 1-2 días hábiles.
+
+Cliente:
+Gracias.
+
+Agente:
+De nada, Lisa. Lamento el inconveniente. Estamos aquí para ayudarte."
+Scenario 9,Account Access,Customer locked out of online banking. Temporary password issued for account access.,Relieved,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Emily. ¿En qué puedo ayudarte hoy?
+
+Cliente:
+No recuerdo mi contraseña de banca en línea y estoy bloqueado.
+
+Agente:
+No te preocupes. Te ayudaré a restablecerla. ¿Puedes confirmarme tu nombre completo y los últimos cuatro dígitos de tu cuenta?
+
+Cliente:
+Soy Michael Thomas, y los últimos cuatro son 1234.
+
+Agente:
+Gracias, Michael. Veo que tu cuenta está bloqueada debido a múltiples intentos fallidos de inicio de sesión. ¿Quieres que te envíe una contraseña temporal a tu correo electrónico?
+
+Cliente:
+Sí, por favor.
+
+Agente:
+De acuerdo. Recibirás una contraseña temporal en los próximos 10 minutos. Cuando inicies sesión, te pedirá que crees una nueva contraseña.
+
+Cliente:
+¿Qué pasa si no recibo el correo?
+
+Agente:
+Si no lo ves en tu bandeja de entrada, revisa tu carpeta de correo no deseado o spam. Si no lo recibes, llámanos y verificaremos la dirección de correo registrada.
+
+Cliente:
+Perfecto. Gracias.
+
+Agente:
+De nada, Michael. Que tengas un excelente día."
+Scenario 10,Communication Issues,Customer and agent struggle to hear each other due to a poor connection. Callback initiated.,Frustrated,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Sarah. ¿En qué puedo ayudarte hoy?
+
+Cliente (interferencia):
+Hola… ¿me escuchas?... Tengo un problema con mi cuenta…
+
+Agente:
+Te escucho, pero la conexión es muy débil. ¿Puedes intentar moverte a un lugar con mejor señal?
+
+Cliente (entrecortado):
+Sí… mi cuenta… cobros no autorizados…
+
+Agente:
+Lamento la interferencia. ¿Quieres que te llame de vuelta al número que tenemos registrado?
+
+Cliente:
+Sí… hazlo.
+
+Agente:
+Muy bien. Te estaré llamando en unos momentos. Por favor, mantente cerca de tu teléfono."
+Scenario 11,Elderly Support,Customer reports unusual withdrawals by a 'friend' of an elderly relative. Elder abuse team notified.,Concerned,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Angela. ¿En qué puedo ayudarte hoy?
+
+Cliente (preocupado, vacilante):
+Hola… no estoy muy seguro de cómo decir esto, pero creo que alguien está aprovechándose de mi abuela.
+
+Agente:
+Lamento mucho escuchar eso. ¿Puedes contarme más sobre lo que ha estado ocurriendo?
+
+Cliente:
+Sí… he estado ayudándola con sus cuentas y noté varios retiros grandes. Como $2,000 aquí, $1,500 allá. Ella nunca gasta esa cantidad de dinero.
+
+Agente:
+Entiendo. ¿Podrías proporcionarme el nombre completo de tu abuela y los últimos cuatro dígitos de su cuenta para revisar los movimientos?
+
+Cliente:
+Sí, es Margaret Evans. Los últimos cuatro son 9876.
+
+Agente:
+Gracias. Veo varios retiros grandes en las últimas dos semanas. ¿Tu abuela ha mencionado alguna razón para estos retiros?
+
+Cliente:
+No, y cuando le pregunté, dijo que su ""nuevo amigo"" estaba ayudándola con inversiones.
+
+Agente:
+Esto es muy preocupante. Aquí hay lo que haremos:
+
+    Voy a marcar estas transacciones como sospechosas y restringiré futuros retiros.
+
+    Te conectaré con nuestro equipo de prevención de abuso a ancianos, quienes te ayudarán a presentar un informe formal.
+
+    También podemos poner una retención en la cuenta hasta que confirmemos la seguridad de tu abuela.
+
+¿Quieres que proceda?
+
+Cliente (emocional):
+Sí, por favor. No sé qué más hacer.
+
+Agente:
+Estás haciendo lo correcto al llamarnos. Ahora te conectaré con nuestro especialista en prevención de abuso a ancianos. Por favor, mantente en la línea."
+Scenario 12,Account Balance,Customer requests account balance information and confirms pending transactions.,Neutral,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Ryan. ¿En qué puedo ayudarte hoy?
+
+Cliente:
+Hola, acabo de abrir una cuenta de ahorros y quiero saber cuánto tengo ahora.
+
+Agente:
+Claro. ¿Puedes confirmarme tu nombre completo y los últimos cuatro dígitos de tu cuenta?
+
+Cliente:
+Soy Jessica Lee, y los últimos cuatro son 3456.
+
+Agente:
+Gracias, Jessica. Veo que tu saldo actual en la cuenta de ahorros es de $1,235.78.
+
+Cliente:
+¿Hay alguna transacción pendiente?
+
+Agente:
+Sí, hay un débito pendiente de $50 a Grocery Mart, que se procesará mañana.
+
+Cliente:
+Ah, perfecto. Gracias por confirmarlo.
+
+Agente:
+De nada, Jessica. Si necesitas alguna otra cosa, no dudes en llamarnos. Que tengas un excelente día."
+Scenario 13,Fraud,Frontline agent escalates a complex fraud case involving recurring unauthorized charges to a fraud specialist.,Concerned,"Agente 1 (Sarah):
+Hola Tom, soy Sarah del equipo de soporte. Tengo un caso de fraude que necesito escalar. ¿Tienes un momento?
+
+Agente 2 (Tom – Especialista en Fraude):
+Sí, claro. ¿Qué está pasando?
+
+Agente 1:
+Tengo a un cliente, Amir Khan, que reportó tres cargos no autorizados de $300 cada uno de XYZ Subscription Services. Dijo que llamó la semana pasada y le aseguraron que se resolvería, pero los cargos siguen ahí y está muy frustrado.
+
+Agente 2:
+¿Confirmaste las transacciones?
+
+Agente 1:
+Sí, definitivamente no fueron autorizadas. Y lo más raro es que los cargos son recurrentes cada tres días.
+
+Agente 2:
+¿Recurrentes? Eso es inusual. ¿Mencionó haber recibido algún correo o llamada sospechosa últimamente?
+
+Agente 1:
+No, pero sonaba muy confundido y abrumado. Tuve que calmarlo un par de veces.
+
+Agente 2:
+Entendido. Me haré cargo. Revisaré la cuenta para detectar actividad no autorizada adicional y contactaré a Amir directamente. ¿Colocaste una retención temporal en la tarjeta?
+
+Agente 1:
+Sí, la tarjeta está bloqueada y le mencioné que recibiría una nueva en 5-7 días hábiles.
+
+Agente 2:
+Perfecto. También presentaré un informe formal de fraude y notificaré al equipo de prevención de abuso por si acaso. Gracias por informarme.
+
+Agente 1:
+De nada. Avísame si necesitas algo más."
+Scenario 14,Technical Support,Customer reports a connection error when accessing the mobile app. Cache cleared and app reopened.,Frustrated,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Kevin. ¿En qué puedo ayudarte hoy?
+
+Cliente (frustrado):
+Sí, estoy tratando de acceder a la aplicación móvil, pero sigue diciendo ""Error de conexión"". Lo intenté varias veces.
+
+Agente:
+Lamento el inconveniente. ¿Te aparece el error al ingresar tu información o al abrir la aplicación?
+
+Cliente:
+Apenas abro la aplicación.
+
+Agente:
+De acuerdo. Primero, ¿estás usando Wi-Fi o datos móviles?
+
+Cliente:
+Wi-Fi, pero todos los demás dispositivos funcionan bien.
+
+Agente:
+Entendido. Intentemos algunos pasos:
+
+    Cierra la aplicación completamente.
+
+    Borra la caché de la aplicación.
+
+    Reabre la aplicación y verifica si persiste el error.
+
+¿Puedes intentarlo ahora?
+
+Cliente:
+Un momento… (pausa) …Sí, ahora funciona.
+
+Agente:
+Perfecto. Si vuelve a ocurrir, puedes intentar los mismos pasos o llamarnos para mayor asistencia. ¿Necesitas algo más?
+
+Cliente:
+No, eso es todo. Gracias.
+
+Agente:
+De nada. Que tengas un excelente día."
+Scenario 15,Account Management,"Customer updates contact information, including phone number and email address.",Neutral,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Rachel. ¿En qué puedo ayudarte hoy?
+
+Cliente:
+Hola, quiero actualizar mi número de teléfono y correo electrónico en mi cuenta.
+
+Agente:
+Claro. ¿Puedes proporcionarme tu nombre completo y los últimos cuatro dígitos de tu cuenta?
+
+Cliente:
+Soy Michael Chen, y los últimos cuatro son 7890.
+
+Agente:
+Gracias, Michael. ¿Cuál es el nuevo número de teléfono que deseas registrar?
+
+Cliente:
+Es 555-987-6543.
+
+Agente:
+Perfecto. Ahora, ¿cuál es el nuevo correo electrónico?
+
+Cliente:
+Es michael.chen@email.com.
+
+Agente:
+Listo. He actualizado ambos datos. ¿Te gustaría recibir una confirmación por correo electrónico?
+
+Cliente:
+Sí, por favor.
+
+Agente:
+En unos 5 minutos deberías recibirlo. Si notas alguna discrepancia, no dudes en llamarnos.
+
+Cliente:
+Gracias por la actualización.
+
+Agente:
+De nada, Michael. Que tengas un excelente día."
+Scenario 16,Fraud,Customer is angry about an unauthorized phone number update. Fraud alert initiated.,Angry,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Laura. ¿En qué puedo ayudarte hoy?
+
+Cliente (enojado):
+Sí, ¿puedes explicarme por qué mi número de teléfono fue cambiado sin mi permiso? Acabo de recibir un mensaje diciendo que fue actualizado, ¡pero yo no lo hice!
+
+Agente:
+Lamento mucho escuchar eso, señor. Permíteme investigar de inmediato. ¿Puedes confirmarme tu nombre completo y los últimos cuatro dígitos de tu cuenta?
+
+Cliente:
+James Carter. Los últimos cuatro son 6789. Y quiero saber cómo pasó esto.
+
+Agente:
+Entendido, James. Estoy revisando tu cuenta ahora. (pausa) Veo que el número de teléfono fue actualizado ayer a las 2:45 PM. ¿Reconoces el número 555-987-6543?
+
+Cliente:
+¡No! Ese no es mi número. Y ahora ni siquiera puedo acceder a mi cuenta porque no puedo recibir el código de verificación.
+
+Agente:
+Lamento mucho el inconveniente, James. Esto es lo que haremos:
+
+    Voy a bloquear tu cuenta temporalmente para evitar más cambios no autorizados.
+
+    Restableceré tu número de teléfono al original y enviaré un código de verificación.
+
+    Iniciaré una investigación de fraude para determinar cómo ocurrió este cambio.
+
+¿Quieres que proceda?
+
+Cliente:
+Sí, hazlo ahora mismo.
+
+Agente:
+Listo. Tu número ha sido restablecido y deberías recibir el código de verificación en unos momentos. ¿Lo recibiste?
+
+Cliente:
+Sí, aquí está. Gracias.
+
+Agente:
+De nada, James. Mantente atento a tu correo, recibirás más detalles sobre la investigación."
+Scenario 17,New Accounts,Potential new customer inquires about checking account options and promotional offers.,Curious,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Emma. ¿En qué puedo ayudarte hoy?
+
+Cliente:
+Hola, estoy pensando en abrir una cuenta corriente con ustedes. ¿Cuáles son las opciones?
+
+Agente:
+¡Nos encantaría tenerte como cliente! Ofrecemos tres tipos de cuentas corrientes:
+
+    Cuenta Básica: Sin tarifa mensual si mantienes un saldo mínimo de $100.
+
+    Cuenta Inteligente: Ganas intereses y tienes retiros gratuitos en cajeros automáticos.
+
+    Cuenta Premier: Incluye todos los beneficios de la Cuenta Inteligente más protección contra sobregiros y recompensas de viaje.
+
+¿Quieres que te explique más sobre alguna de ellas?
+
+Cliente:
+Sí, ¿cuál es el depósito mínimo para abrir una cuenta?
+
+Agente:
+Para la Cuenta Básica es de $25. Para la Cuenta Inteligente y Premier, es de $100. Además, estamos ofreciendo un bono de $50 para nuevas cuentas Inteligente y Premier.
+
+Cliente:
+Genial. ¿Y qué documentos necesito llevar?
+
+Agente:
+Solo necesitas un ID válido, un comprobante de domicilio y tu número de Seguro Social.
+
+Cliente:
+Perfecto. Gracias por la información.
+
+Agente:
+De nada. Si decides abrir la cuenta, llámanos o visita una de nuestras sucursales. ¡Que tengas un excelente día!"
+Scenario 18,Wire Transfers,Customer requests wiring instructions for a domestic transfer. Form emailed with fee information.,Inquisitive,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Brian. ¿En qué puedo ayudarte hoy?
+
+Cliente:
+Hola, necesito hacer una transferencia bancaria a otro banco. ¿Qué información necesito?
+
+Agente:
+Claro. ¿Es una transferencia nacional o internacional?
+
+Cliente:
+Nacional, a un banco aquí en Ohio.
+
+Agente:
+Entendido. Aquí está la información que necesitas:
+
+    Nombre completo del destinatario.
+
+    Nombre y dirección del banco receptor.
+
+    Número de cuenta del destinatario.
+
+    Número de ruta bancaria.
+
+    Monto a transferir.
+
+¿Te gustaría que te envíe un formulario para completar con todos estos detalles?
+
+Cliente:
+Sí, por favor. ¿Hay algún costo por la transferencia?
+
+Agente:
+Sí, para transferencias nacionales, la tarifa es de $15.
+
+Cliente:
+De acuerdo. Envíame el formulario al correo d.johnson@email.com.
+
+Agente:
+Listo. Deberías recibirlo en unos momentos. Si necesitas algo más, no dudes en llamarnos."
+Scenario 19,Business Banking,Business owner inquires about payment processing solutions for in-store and online transactions.,Inquisitive,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Michael. ¿En qué puedo ayudarte hoy?
+
+Cliente (dueño de negocio):
+Sí, tengo un café y quiero empezar a aceptar pagos con tarjeta de crédito. ¿Qué opciones ofrecen?
+
+Agente:
+Ofrecemos varias soluciones para negocios:
+
+    Terminales POS: Acepta pagos con tarjeta, débito y pagos sin contacto en tienda.
+
+    Pagos Móviles: Ideal para ventas móviles o tiendas emergentes.
+
+    Pasarela de Pagos en Línea: Integración con tu sitio web para aceptar pagos en línea.
+
+¿Quieres que te envíe un desglose de tarifas para cada opción?
+
+Cliente:
+Sí, por favor. ¿Cuál es la tarifa por transacción?
+
+Agente:
+Para terminales POS es del 2.5% por transacción. Para pagos móviles, es del 2.75%.
+
+Cliente:
+De acuerdo. Envíame la información a owner@cafemojito.com.
+
+Agente:
+Perfecto. Recibirás el correo en 15 minutos. Si decides avanzar, podemos programar una llamada con un especialista en servicios comerciales."
+Scenario 20,Business Banking,Business owner requests to cancel merchant services due to high fees. Cancellation set for the end of the billing cycle.,Disappointed,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Sarah. ¿En qué puedo ayudarte hoy?
+
+Cliente (tono firme):
+Quiero cancelar mis servicios de comercio. Las tarifas son demasiado altas.
+
+Agente:
+Lamento escuchar eso. ¿Puedes confirmarme tu nombre de negocio y los últimos cuatro dígitos de tu cuenta comercial?
+
+Cliente:
+Es Café Mojito, y los últimos cuatro son 4567.
+
+Agente:
+Gracias. Antes de proceder, ¿te gustaría saber sobre nuestra estructura de tarifas revisada para pequeñas empresas?
+
+Cliente:
+No, ya me cambié a otro proveedor. Solo quiero cerrar la cuenta.
+
+Agente:
+Entendido. Procederé con la cancelación. ¿Quieres que los servicios se mantengan activos hasta el final del ciclo de facturación o que se cancelen de inmediato?
+
+Cliente:
+Hasta el final del ciclo, aún tengo algunas transacciones pendientes.
+
+Agente:
+Perfecto. Tu cuenta se cerrará el 31 de mayo y recibirás un estado de cuenta final. Si alguna vez decides regresar, estaremos aquí para ayudarte.
+
+Cliente:
+Gracias por gestionar esto.
+
+Agente:
+De nada. Que tengas un excelente día."
+Scenario 21,Tax Information,Customer requests a copy of their 1099-INT. Document emailed within 5-7 business days.,Inquisitive,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Eric. ¿En qué puedo ayudarte hoy?
+
+Cliente:
+Hola, necesito una copia de mi formulario 1099-INT del año pasado. ¿Cómo puedo obtenerlo?
+
+Agente:
+Claro. ¿Es para tu cuenta de ahorros o para tu cuenta corriente?
+
+Cliente:
+Para mi cuenta de ahorros.
+
+Agente:
+Entendido. ¿Puedes confirmarme tu nombre completo y los últimos cuatro dígitos de tu cuenta?
+
+Cliente:
+Soy Anna Perez, y los últimos cuatro son 2345.
+
+Agente:
+Gracias, Anna. Veo que se emitió un 1099-INT en enero por un monto de $150 en intereses. Puedes acceder a una copia en tu portal de banca en línea en la sección “Documentos fiscales”.
+
+Cliente:
+¿Y si necesito una copia impresa?
+
+Agente:
+Podemos enviártela por correo. ¿Quieres que proceda?
+
+Cliente:
+Sí, envíenmela por favor.
+
+Agente:
+De acuerdo. Deberías recibirla en 5-7 días hábiles. ¿Hay algo más en lo que te pueda ayudar?
+
+Cliente:
+No, eso es todo. Gracias.
+
+Agente:
+De nada, Anna. Que tengas un buen día."
+Scenario 22,Tax Information,Customer reports incorrect income on 1099-INT. Review initiated for correction.,Concerned,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Laura. ¿En qué puedo ayudarte hoy?
+
+Cliente (preocupado):
+Hola, acabo de recibir mi formulario 1099-INT y dice que gané $1,250 en intereses, pero eso no es correcto.
+
+Agente:
+Lamento escuchar eso. Vamos a revisarlo. ¿Puedes confirmarme tu nombre completo y los últimos cuatro dígitos de tu cuenta?
+
+Cliente:
+Soy Daniel Carter, y los últimos cuatro son 6789.
+
+Agente:
+Gracias, Daniel. Estoy revisando tu cuenta ahora. (pausa) Veo que el formulario 1099-INT fue emitido por $1,250 el 15 de enero. ¿Puedes confirmar cuál crees que debería ser el monto correcto?
+
+Cliente:
+Sí, debería ser $950.
+
+Agente:
+Entendido. Voy a iniciar una revisión del formulario 1099-INT para verificar la información. Esto puede tardar entre 3 y 5 días hábiles. Si se confirma el error, emitiremos un formulario corregido y te enviaremos una copia actualizada.
+
+Cliente:
+De acuerdo. ¿Me avisarán por correo electrónico?
+
+Agente:
+Sí, recibirás una notificación una vez que la corrección esté lista. Si tienes más dudas, no dudes en llamarnos.
+
+Cliente:
+Gracias por tu ayuda.
+
+Agente:
+De nada, Daniel. Estamos aquí para ayudarte."
+Scenario 23,Loans,Customer requests information on loan modification after job loss. Call transferred to loan specialist.,Worried,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Tom. ¿En qué puedo ayudarte hoy?
+
+Cliente (preocupado):
+Hola, perdí mi empleo recientemente y estoy teniendo problemas para pagar mi préstamo. ¿Puedo modificarlo?
+
+Agente:
+Lamento escuchar eso. Voy a transferirte con nuestro equipo de modificación de préstamos, pero antes, ¿puedes confirmarme tu nombre completo y el número de préstamo?
+
+Cliente:
+Soy Sandra Nguyen, y el número de préstamo es 123456.
+
+Agente:
+Gracias, Sandra. Un momento mientras te transfiero a un especialista en modificaciones. (transfiriendo llamada)
+Especialista (Carlos):
+Hola Sandra, mi nombre es Carlos y soy del equipo de modificaciones de préstamos. Entiendo que estás teniendo dificultades financieras. ¿Podrías contarme un poco más sobre tu situación?
+
+Cliente:
+Sí, perdí mi empleo el mes pasado y mis ingresos han disminuido considerablemente.
+
+Especialista:
+Lamento mucho escuchar eso. Vamos a ver qué opciones tenemos. Podemos ofrecerte un plan de pago reducido o una extensión de plazo. ¿Qué te parece mejor?
+
+Cliente:
+La extensión de plazo me ayudaría más.
+
+Especialista:
+De acuerdo. Vamos a proceder con eso. Te enviaré un formulario por correo electrónico para completar. ¿Es s.nguyen@email.com la dirección correcta?
+
+Cliente:
+Sí, esa es.
+
+Especialista:
+Perfecto. Recibirás el formulario en 15 minutos. Llámanos si tienes alguna duda al completarlo.
+
+Cliente:
+Gracias por tu ayuda, Carlos."
+Scenario 24,Card Services,Customer reports delayed debit card delivery. New card expedited and account monitored.,Worried,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Megan. ¿En qué puedo ayudarte hoy?
+
+Cliente (frustrado):
+Sí, solicité una tarjeta de débito de reemplazo hace más de una semana y todavía no ha llegado.
+
+Agente:
+Lamento el inconveniente. Vamos a revisar tu cuenta. ¿Puedes confirmarme tu nombre completo y los últimos cuatro dígitos de tu tarjeta?
+
+Cliente:
+Soy David Lopez, y los últimos cuatro son 6789.
+
+Agente:
+Gracias, David. Veo que la tarjeta fue enviada el 5 de mayo a la dirección 123 Oak Street, Columbus, OH. ¿Es correcto?
+
+Cliente:
+Sí, pero hoy es 15 de mayo y no ha llegado.
+
+Agente:
+Entendido. Voy a iniciar un rastreo del envío. Mientras tanto, puedo enviarte una nueva tarjeta por entrega urgente. ¿Te gustaría proceder?
+
+Cliente:
+Sí, por favor. ¿Y qué pasa si la tarjeta original llega después?
+
+Agente:
+No la actives. Simplemente destrúyela o envíala de vuelta a nosotros. La tarjeta urgente llegará en 1-2 días hábiles.
+
+Cliente:
+Gracias por la ayuda.
+
+Agente:
+De nada, David. Mantente atento a tu correo y llámanos si necesitas algo más."
+Scenario 25,Credit,Customer asks why their credit score dropped. Explanation provided regarding credit utilization and recent inquiries.,Confused,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Kevin. ¿En qué puedo ayudarte hoy?
+
+Cliente:
+Hola, acabo de revisar mi puntaje de crédito en la aplicación del banco y ha bajado 50 puntos. ¿Por qué?
+
+Agente:
+Entiendo tu preocupación. Vamos a revisarlo. ¿Puedes confirmarme tu nombre completo y los últimos cuatro dígitos de tu cuenta?
+
+Cliente:
+Soy Lisa Martin, y los últimos cuatro son 6789.
+
+Agente:
+Gracias, Lisa. Veo que tu puntaje de crédito era de 720 el mes pasado y ahora es de 685. Las razones más comunes para una caída en el puntaje son:
+
+    Consultas de crédito recientes.
+
+    Aumento en la utilización del crédito.
+
+    Pagos atrasados.
+
+¿Has solicitado un nuevo crédito o aumentado el saldo en alguna tarjeta?
+
+Cliente:
+Sí, solicité una nueva tarjeta de crédito y compré algunos muebles a crédito.
+
+Agente:
+Eso podría explicarlo. A medida que pagues esos saldos y mantengas los pagos a tiempo, tu puntaje debería recuperarse.
+
+Cliente:
+Gracias por explicarlo. ¿Hay alguna forma de monitorear los cambios?
+
+Agente:
+Sí, puedes configurar alertas en la aplicación bancaria para recibir notificaciones sobre cambios en tu puntaje.
+
+Cliente:
+Perfecto. Gracias por tu ayuda.
+
+Agente:
+De nada, Lisa. Si necesitas más información, no dudes en llamarnos."
+Scenario 26,Credit,Customer’s credit card application declined due to insufficient credit history. Secured card option discussed.,Disappointed,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Ryan. ¿En qué puedo ayudarte hoy?
+
+Cliente (frustrado):
+Sí, acabo de recibir una carta diciendo que mi solicitud de tarjeta de crédito fue rechazada. No entiendo por qué.
+
+Agente:
+Lamento escuchar eso. Déjame revisar tu solicitud. ¿Puedes confirmarme tu nombre completo y los últimos cuatro dígitos de tu número de Seguro Social?
+
+Cliente:
+Soy John Harris, y los últimos cuatro son 9876.
+
+Agente:
+Gracias, John. Veo que tu solicitud fue rechazada el 10 de mayo debido a historial crediticio insuficiente. ¿Has tenido alguna tarjeta de crédito o préstamo antes?
+
+Cliente:
+No, esta iba a ser mi primera tarjeta.
+
+Agente:
+Entendido. Aquí hay algunas opciones:
+
+    Podemos ofrecerte una tarjeta de crédito asegurada, que te ayudará a construir tu historial crediticio.
+
+    También puedes intentar abrir una línea de crédito con un cofirmante, alguien con un historial más sólido.
+
+¿Te gustaría recibir más información sobre la tarjeta asegurada?
+
+Cliente:
+Sí, por favor.
+
+Agente:
+Perfecto. Te enviaré un correo electrónico con todos los detalles. Puedes revisar y decidir cuándo aplicar.
+
+Cliente:
+De acuerdo. Gracias por la información.
+
+Agente:
+De nada, John. Si necesitas más ayuda, estamos aquí para asistirte."
+Scenario 27,Credit,Customer reports a 50-point drop in credit score. Agent submits a goodwill adjustment request.,Worried,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Lisa. ¿En qué puedo ayudarte hoy?
+
+Cliente (preocupado):
+Hola, mi puntaje de crédito bajó casi 50 puntos y creo que fue porque me atrasé en un pago. ¿Hay alguna forma de arreglarlo?
+
+Agente:
+Entiendo tu preocupación. Déjame revisar tu cuenta. ¿Puedes confirmarme tu nombre completo y los últimos cuatro dígitos de tu tarjeta de crédito?
+
+Cliente:
+Soy David Lee, y los últimos cuatro son 4567.
+
+Agente:
+Gracias, David. Veo que tu pago de $150 vencía el 15 de abril, pero lo recibimos el 2 de mayo, 17 días tarde.
+
+Cliente:
+Sí, me olvidé completamente.
+
+Agente:
+No te preocupes. Aquí hay algunas opciones:
+
+    Puedo enviar una solicitud de ajuste de buena voluntad para intentar eliminar la marca de pago atrasado.
+
+    También puedes pagar el saldo completo, lo cual ayudará a mejorar tu puntaje más rápidamente.
+
+¿Te gustaría proceder con la solicitud de ajuste?
+
+Cliente:
+Sí, por favor.
+
+Agente:
+Listo. La solicitud ha sido enviada. Recibirás una respuesta en 7-10 días hábiles.
+
+Cliente:
+Gracias por tu ayuda.
+
+Agente:
+De nada, David. Mantente atento a tu correo y llámanos si tienes alguna duda."
+Scenario 28,Credit,Customer requests to downgrade a premium card to a no-fee cash rewards card. Points converted to cash back.,Neutral,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Brian. ¿En qué puedo ayudarte hoy?
+
+Cliente:
+Sí, quiero cambiar mi tarjeta de crédito Premier a una tarjeta básica sin tarifa anual.
+
+Agente:
+Entendido. ¿Puedes confirmarme tu nombre completo y los últimos cuatro dígitos de tu tarjeta?
+
+Cliente:
+Soy Sarah Kim, y los últimos cuatro son 7890.
+
+Agente:
+Gracias, Sarah. Tu tarjeta Premier tiene una tarifa anual de $95. Si cambias a la tarjeta básica, no habrá tarifa anual, pero no tendrás los beneficios de recompensas de viaje. ¿Estás de acuerdo?
+
+Cliente:
+Sí, ya no uso esos beneficios, así que está bien.
+
+Agente:
+De acuerdo. ¿Quieres que convertamos los puntos acumulados a reembolso en efectivo o los dejamos como están?
+
+Cliente:
+Conviértelos a efectivo, por favor.
+
+Agente:
+Perfecto. Los puntos serán convertidos a un crédito de $50 y aplicados a tu próxima factura. La nueva tarjeta será enviada en 5-7 días hábiles.
+
+Cliente:
+Gracias por gestionar esto.
+
+Agente:
+De nada, Sarah. Que tengas un excelente día."
+Scenario 29,Business Banking,Business owner requests a temporary credit line increase for inventory purchase. Financials requested.,Hopeful,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Emily. ¿En qué puedo ayudarte hoy?
+
+Cliente (dueño de negocio):
+Sí, tengo un pedido grande de inventario y necesito un aumento temporal del límite de crédito.
+
+Agente:
+Claro. ¿Puedes confirmarme el nombre de tu negocio y los últimos cuatro dígitos de tu cuenta comercial?
+
+Cliente:
+Es Global Supplies LLC, y los últimos cuatro son 3456.
+
+Agente:
+Gracias. Tu límite actual es de $10,000. ¿Cuánto necesitas aumentar y por cuánto tiempo?
+
+Cliente:
+Quisiera aumentarlo a $15,000 por los próximos 30 días.
+
+Agente:
+Entendido. Necesitaré una copia de tus estados financieros recientes para proceder con la solicitud. ¿Te gustaría enviarlos por correo electrónico o subirlos a nuestro portal?
+
+Cliente:
+Los enviaré por correo electrónico. ¿A qué dirección?
+
+Agente:
+Envíalos a businesssupport@notarealbank.com. Una vez recibidos, el proceso tomará 1-2 días hábiles.
+
+Cliente:
+De acuerdo. Gracias por tu ayuda.
+
+Agente:
+De nada. Te mantendremos informado sobre el estatus de la solicitud."
+Scenario 30,Account Management,"Customer updates employment and salary information, affecting credit card and loan accounts.",Neutral,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Rachel. ¿En qué puedo ayudarte hoy?
+
+Cliente:
+Hola, quiero actualizar mi información de empleo. Acabo de cambiar de trabajo.
+
+Agente:
+Felicidades por el nuevo empleo. ¿Puedes confirmarme tu nombre completo y los últimos cuatro dígitos de tu cuenta?
+
+Cliente:
+Soy Rachel Lopez, y los últimos cuatro son 7890.
+
+Agente:
+Gracias, Rachel. ¿Cuál es el nombre del nuevo empleador?
+
+Cliente:
+Es GreenTech Solutions.
+
+Agente:
+Perfecto. ¿Y tu nuevo ingreso anual?
+
+Cliente:
+$62,000 al año.
+
+Agente:
+Gracias. ¿Quieres que te envíe una confirmación por correo electrónico con los cambios?
+
+Cliente:
+Sí, por favor.
+
+Agente:
+De acuerdo. La confirmación llegará en 10 minutos. Si necesitas actualizar algo más, no dudes en llamarnos.
+
+Cliente:
+Gracias por la ayuda.
+
+Agente:
+De nada, Rachel. Que tengas un excelente día."
+Scenario 31,Loans,Potential buyer asks for an overview of the mortgage process and down payment requirements.,Curious,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Amanda. ¿En qué puedo ayudarte hoy?
+
+Cliente:
+Hola, estoy pensando en comprar una casa, pero nunca he solicitado una hipoteca antes. ¿Me puedes explicar cómo funciona el proceso?
+
+Agente:
+Por supuesto. Nos encantaría ayudarte con eso. ¿Estás buscando comprar una casa nueva o refinanciar una existente?
+
+Cliente:
+Comprar una nueva. Apenas estoy comenzando a ver opciones y quiero entender los requisitos.
+
+Agente:
+Entendido. Aquí tienes una descripción general del proceso hipotecario:
+
+    Pre-aprobación: Revisamos tu puntaje crediticio, ingresos y deudas para determinar cuánto puedes pedir prestado.
+
+    Solicitud: Proporcionas detalles financieros, como comprobantes de ingresos, declaraciones de impuestos y extractos bancarios.
+
+    Selección de propiedad y tasación: Encuentras una casa y la tasamos para verificar su valor.
+
+    Aprobación final: Revisión detallada de tus finanzas y de la propiedad.
+
+    Cierre: Firmas los documentos y obtienes las llaves de tu nuevo hogar.
+
+¿Te gustaría más información sobre los tipos de hipotecas que ofrecemos?
+
+Cliente:
+Sí, por favor. ¿Y cuánto necesito para el pago inicial?
+
+Agente:
+Para la mayoría de los préstamos, el pago inicial mínimo es del 5% al 20% del precio de la casa. También ofrecemos préstamos FHA con solo el 3.5% de pago inicial y préstamos VA para militares activos y veteranos, que no requieren pago inicial.
+
+Cliente:
+Perfecto. ¿Y mi puntaje de crédito? ¿Hay un mínimo?
+
+Agente:
+La mayoría de los préstamos requieren un puntaje mínimo de 620. Sin embargo, cuanto mayor sea tu puntaje, mejor será tu tasa de interés.
+
+Cliente:
+De acuerdo. Gracias por toda la información.
+
+Agente:
+De nada. Si decides avanzar, llámanos o visita nuestra página web para comenzar el proceso de pre-aprobación."
+Scenario 32,ACH Transfers,"Customer asks for an explanation of ACH transfers, fees, and processing times.",Inquisitive,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Kevin. ¿En qué puedo ayudarte hoy?
+
+Cliente:
+Hola, quiero saber cómo funcionan las transferencias ACH.
+
+Agente:
+Claro, te explico. ACH significa Automated Clearing House. Es una red que procesa pagos electrónicos, como depósitos directos, pagos de facturas y transferencias bancarias. Es una opción segura y de bajo costo para mover dinero sin usar cheques de papel.
+
+Cliente:
+¿Y es lo mismo que una transferencia bancaria?
+
+Agente:
+No exactamente. Las transferencias ACH son generalmente más lentas pero más baratas que las transferencias bancarias. Las ACH pueden tardar de 1 a 3 días hábiles, mientras que las transferencias bancarias suelen ser el mismo día, pero con tarifas más altas.
+
+Cliente:
+¿Y qué información necesito para hacer una transferencia ACH?
+
+Agente:
+Necesitarás:
+
+    Nombre completo del destinatario.
+
+    Número de cuenta bancaria del destinatario.
+
+    Número de ruta del banco receptor.
+
+    Monto a transferir.
+
+¿Quieres que te envíe un formulario para completarlo?
+
+Cliente:
+Sí, por favor.
+
+Agente:
+Perfecto. Lo recibirás por correo electrónico en unos minutos."
+Scenario 33,ACH Transfers,Customer follows up on a delayed ACH transfer. Agent confirms pending status and sets a notification alert.,Worried,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Megan. ¿En qué puedo ayudarte hoy?
+
+Cliente:
+Hola, envié una transferencia ACH hace dos días, pero el dinero no ha llegado aún. ¿Puedes verificar el estado?
+
+Agente:
+Por supuesto. ¿Puedes confirmarme tu nombre completo y los últimos cuatro dígitos de tu cuenta?
+
+Cliente:
+Soy David Lopez, y los últimos cuatro son 6789.
+
+Agente:
+Gracias, David. Veo una transferencia ACH de $500 iniciada el 10 de mayo a ABC Savings Bank. ¿Es la que estás preguntando?
+
+Cliente:
+Sí, esa misma.
+
+Agente:
+El estado actual es pendiente, lo que significa que está en proceso en la red ACH. Las transferencias suelen tardar 1-3 días hábiles, por lo que debería reflejarse mañana. ¿Quieres que configure una alerta para notificarte cuando se complete?
+
+Cliente:
+Sí, por favor.
+
+Agente:
+Listo. Recibirás un mensaje tan pronto como se complete la transferencia."
+Scenario 34,Account Management,Customer requests to set up overdraft protection linked to a savings account. Daily transfer limit explained.,Neutral,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Lisa. ¿En qué puedo ayudarte hoy?
+
+Cliente:
+Hola, quiero configurar la protección contra sobregiros para mi cuenta de cheques.
+
+Agente:
+Claro. ¿Te gustaría vincular tu cuenta de ahorros o una tarjeta de crédito?
+
+Cliente:
+Mi cuenta de ahorros.
+
+Agente:
+Perfecto. ¿Puedes confirmarme tu nombre completo y los últimos cuatro dígitos de tu cuenta de ahorros?
+
+Cliente:
+Soy Rachel Lopez, y los últimos cuatro son 7890.
+
+Agente:
+Gracias, Rachel. La protección contra sobregiros está ahora activa. Si tu cuenta de cheques cae por debajo de $0, transferiremos automáticamente fondos de tu cuenta de ahorros con una tarifa de $10 por transferencia.
+
+Cliente:
+¿Hay un límite diario?
+
+Agente:
+Sí, el límite es de $1,000 por día.
+
+Cliente:
+Perfecto. Gracias por configurarlo."
+Scenario 35,Fraud,Business owner reports multiple unauthorized charges. Fraud review initiated and account flagged.,Concerned,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Rachel. ¿En qué puedo ayudarte hoy?
+
+Cliente (preocupado):
+Sí, tengo un negocio y acabo de notar tres cargos de $300 cada uno que no reconozco.
+
+Agente:
+Lamento escuchar eso. ¿Puedes confirmarme el nombre del negocio y los últimos cuatro dígitos de tu cuenta?
+
+Cliente:
+Es Global Supplies LLC, y los últimos cuatro son 3456.
+
+Agente:
+Gracias, veo los cargos. Todos son a XYZ Consulting en los últimos tres días. ¿Los reconoces?
+
+Cliente:
+No, nunca he trabajado con ellos.
+
+Agente:
+Entendido. Aquí está lo que vamos a hacer:
+
+    Marcaremos estos cargos como no autorizados y colocaremos una retención temporal en tu cuenta.
+
+    Iniciaremos una revisión por fraude y te enviaremos un formulario para completar.
+
+    Si los cargos se confirman como fraudulentos, el dinero será reembolsado en 7-10 días hábiles.
+
+¿Quieres proceder?
+
+Cliente:
+Sí, por favor.
+
+Agente:
+Listo. El formulario será enviado a tu correo electrónico en 10 minutos. Si necesitas algo más, llámanos."
+Scenario 36,Account Management,Customer requests to reactivate a dormant account. Reactivation form emailed for completion.,Confused,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Tom. ¿En qué puedo ayudarte hoy?
+
+Cliente:
+Hola, me dijeron que mi cuenta fue marcada como inactiva. ¿Cómo la reactivo?
+
+Agente:
+Claro. Déjame revisarlo por ti. ¿Puedes confirmarme tu nombre completo y los últimos cuatro dígitos de tu cuenta?
+
+Cliente:
+Soy Emily Zhang, y los últimos cuatro son 1234.
+
+Agente:
+Gracias, Emily. Veo que tu cuenta fue marcada como inactiva el 15 de febrero porque no tuvo actividad durante más de un año. Para reactivarla, necesitas realizar una transacción, como un depósito o un retiro.
+
+Cliente:
+¿Puedo hacerlo en línea?
+
+Agente:
+Lamentablemente, para cuentas inactivas, necesitarás visitar una sucursal en persona con una identificación válida.
+
+Cliente:
+¿Y si no estoy en la ciudad?
+
+Agente:
+En ese caso, puedo enviarte un formulario de reactivación por correo electrónico. Debes completarlo y devolverlo con una copia de tu identificación.
+
+Cliente:
+Está bien. Envíamelo a e.zhang@email.com.
+
+Agente:
+Listo. Lo recibirás en 15 minutos. Una vez que lo recibamos, tu cuenta será reactivada en 3-5 días hábiles."
+Scenario 37,Elderly Support,Elderly customer requests step-by-step guidance on setting up online banking. Agent assists with enrollment.,Grateful,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Lisa. ¿En qué puedo ayudarte hoy?
+
+Cliente (anciano, dudoso):
+Hola… no soy muy bueno con las computadoras, pero quiero configurar eso de la banca en línea.
+
+Agente:
+Por supuesto. Puedo guiarte paso a paso. ¿Estás usando un computador o un teléfono móvil?
+
+Cliente:
+Estoy en mi laptop.
+
+Agente:
+Perfecto. Primero, abre tu navegador de internet y escribe www.notarealbank.com. Avísame cuando llegues ahí.
+
+Cliente:
+Sí… ya estoy.
+
+Agente:
+Ahora, haz clic en “Registrarse en Banca en Línea”. Aparecerá un formulario donde debes ingresar tu número de cuenta y correo electrónico.
+
+Cliente:
+Ya lo hice. ¿Ahora qué?
+
+Agente:
+Ahora, recibirás un código de verificación en tu correo electrónico. ¿Lo ves?
+
+Cliente:
+Sí, aquí está. Es 489732.
+
+Agente:
+Excelente. Ingresa ese código y haz clic en “Enviar”. Ahora, crea una contraseña fácil de recordar pero difícil de adivinar.
+
+Cliente:
+Listo.
+
+Agente:
+¡Perfecto! Ahora ya tienes acceso a la banca en línea. Si necesitas ayuda navegando, puedo guiarte.
+
+Cliente:
+No, creo que estoy bien. Gracias por tu paciencia."
+Scenario 38,Loans,"Customer requests current loan payoff amount. Agent provides the updated figure, including interest.",Neutral,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Emily. ¿En qué puedo ayudarte hoy?
+
+Cliente:
+Hola, quiero pagar mi préstamo por completo, pero quiero saber cuánto debo exactamente.
+
+Agente:
+Claro. ¿Puedes confirmarme tu nombre completo y el número de tu cuenta de préstamo?
+
+Cliente:
+Soy Robert King, y el número es 12345678.
+
+Agente:
+Gracias, Robert. Veo que el monto total para liquidar tu préstamo hoy es de $4,823.45. Esto incluye el saldo pendiente, los intereses acumulados y cualquier tarifa aplicable.
+
+Cliente:
+¿Hasta cuándo es válido ese monto?
+
+Agente:
+Ese monto es válido hasta el 31 de mayo. Después de esa fecha, los intereses seguirán acumulándose y el monto podría cambiar.
+
+Cliente:
+De acuerdo. ¿Puedo hacer el pago en línea?
+
+Agente:
+Sí, puedes hacerlo a través del portal de banca en línea. También puedes enviar un cheque o pagar en persona en una sucursal.
+
+Cliente:
+Perfecto. Gracias por la información."
+Scenario 39,Security,Customer reports a phishing email. Agent confirms it is fraudulent and advises to forward to the fraud team.,Anxious,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Ryan. ¿En qué puedo ayudarte hoy?
+
+Cliente (ansioso):
+Hola, acabo de recibir un correo que dice que es de ustedes, pero me pide que haga clic en un enlace para verificar mi cuenta. ¿Es legítimo?
+
+Agente:
+Gracias por verificar. ¿Puedes decirme cuál es la dirección de correo del remitente y el asunto del mensaje?
+
+Cliente:
+El correo viene de support@notarealbank-security.com y el asunto dice “Verificación urgente de cuenta”.
+
+Agente:
+Eso no es una dirección válida de Not-a-real Bank. Nunca te pediremos que verifiques tu cuenta haciendo clic en un enlace. ¿Hiciste clic o ingresaste alguna información?
+
+Cliente:
+No, solo lo abrí.
+
+Agente:
+Bien hecho al no hacer clic. Aquí te indico los pasos a seguir:
+
+    Elimina el correo inmediatamente.
+
+    No respondas ni hagas clic en ningún enlace.
+
+    Reenvía el correo a nuestro equipo de fraude a fraud@notarealbank.com.
+
+¿Quieres que revisemos tu cuenta por actividad sospechosa?
+
+Cliente:
+Sí, por favor.
+
+Agente:
+Listo. No veo actividad sospechosa, pero mantente atento. Gracias por reportarlo."
+Scenario 40,Account Management,Customer requests to convert an individual checking account to a joint account. Documentation requirements explained.,Inquisitive,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Amanda. ¿En qué puedo ayudarte hoy?
+
+Cliente:
+Hola, quiero convertir mi cuenta corriente en una cuenta conjunta con mi esposa. ¿Cómo hago eso?
+
+Agente:
+Claro. ¿Quieres que ella sea co-propietaria o solo usuaria autorizada?
+
+Cliente:
+Co-propietaria. Quiero que tenga acceso completo a la cuenta.
+
+Agente:
+De acuerdo. Aquí está el proceso:
+
+    Ambos deben visitar una sucursal juntos con una identificación válida.
+
+    Completarán un formulario de solicitud conjunta y firmarán los acuerdos.
+
+    Si tu esposa no es cliente, también deberá proporcionar su número de Seguro Social y un comprobante de domicilio.
+
+Cliente:
+¿Hay algún costo para hacer esto?
+
+Agente:
+No, convertir tu cuenta a conjunta no tiene costo. Sin embargo, ambos serán responsables por cualquier transacción o saldo adeudado.
+
+Cliente:
+De acuerdo. ¿Puedo mantener mi cuenta individual además de la conjunta?
+
+Agente:
+Sí, puedes hacerlo. Solo indícanos si deseas mantener ambas cuentas activas.
+
+Cliente:
+Perfecto. Gracias por la información.
+
+Agente:
+De nada. Llámanos o visítanos cuando estén listos para proceder."
+Scenario 41,Business Banking,Business owner requests a 30-day increase to cover a large purchase. Documentation requested for review.,Hopeful,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Megan. ¿En qué puedo ayudarte hoy?
+
+Cliente (urgente):
+Hola, tengo un gran pedido de inventario que necesito cubrir y quiero aumentar temporalmente el límite de crédito de mi cuenta comercial.
+
+Agente:
+Entendido. ¿Puedes confirmarme el nombre del negocio y los últimos cuatro dígitos de tu cuenta comercial?
+
+Cliente:
+Es ABC Electronics, y los últimos cuatro son 7890.
+
+Agente:
+Gracias, veo que tu límite actual es de $10,000. ¿Cuánto necesitas aumentar y por cuánto tiempo?
+
+Cliente:
+Necesito que suba a $15,000 durante los próximos 30 días.
+
+Agente:
+De acuerdo. Antes de proceder, necesitaré verificar tu ingreso actual y flujo de caja. ¿Quieres proporcionarlo por teléfono o prefieres enviarnos los estados financieros por correo electrónico?
+
+Cliente:
+Enviaré los documentos por correo. ¿A qué dirección?
+
+Agente:
+Envíalos a businesssupport@notarealbank.com e incluye en el asunto “Solicitud de aumento temporal del límite de crédito”. Una vez recibidos, el proceso de revisión tomará 1-2 días hábiles.
+
+Cliente:
+Perfecto. Lo haré ahora mismo.
+
+Agente:
+Excelente. Te notificaremos por correo electrónico tan pronto se complete la revisión."
+Scenario 42,Account Management,Customer reports an incorrect transaction on their statement. Dispute form emailed for resolution.,Frustrated,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Daniel. ¿En qué puedo ayudarte hoy?
+
+Cliente (frustrado):
+Hola, revisé mi extracto bancario y veo un cargo de $300 que no hice.
+
+Agente:
+Lamento escuchar eso. Vamos a revisar tu cuenta. ¿Puedes confirmarme tu nombre completo y los últimos cuatro dígitos de tu cuenta?
+
+Cliente:
+Soy Karen White, y los últimos cuatro son 4321.
+
+Agente:
+Gracias, Karen. Veo un cargo de $300 realizado el 12 de mayo a XYZ Services. ¿Reconoces esa transacción?
+
+Cliente:
+No, nunca he oído hablar de ellos.
+
+Agente:
+De acuerdo. Puedo iniciar un proceso de disputa. Aquí está lo que haremos:
+
+    Marcaré el cargo como sospechoso y lo enviaré para revisión.
+
+    Te enviaré un formulario de disputa por correo electrónico que debes completar y devolver en 5 días hábiles.
+
+    Si se confirma que el cargo es no autorizado, se acreditarán los fondos en 7-10 días hábiles.
+
+¿Quieres proceder?
+
+Cliente:
+Sí, por favor.
+
+Agente:
+Listo. El formulario será enviado a k.white@email.com en 15 minutos."
+Scenario 43,Account Management,Customer asks about early withdrawal penalty on a 12-month CD. Agent calculates the fee.,Inquisitive,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Linda. ¿En qué puedo ayudarte hoy?
+
+Cliente:
+Hola, tengo un CD a 12 meses, pero necesito el dinero ahora. ¿Qué penalidades hay por retiro anticipado?
+
+Agente:
+Entendido. ¿Puedes confirmarme tu nombre completo y los últimos cuatro dígitos de tu cuenta CD?
+
+Cliente:
+Soy Mark Jenkins, y los últimos cuatro son 9876.
+
+Agente:
+Gracias, Mark. Tu CD a 12 meses tiene un saldo de $5,000 y vence el 15 de diciembre. Si lo retiras ahora, se aplicará una penalidad de 90 días de interés, que equivale a $75.
+
+Cliente:
+¿Y si solo retiro la mitad?
+
+Agente:
+Puedes retirar hasta el 50% del saldo sin cerrar el CD, pero la penalidad seguirá siendo 90 días de interés sobre el monto retirado.
+
+Cliente:
+De acuerdo. Déjame pensarlo y te llamo de vuelta.
+
+Agente:
+Perfecto. Llámanos cuando decidas."
+Scenario 44,Business Banking,Business owner requests the current USD to EUR exchange rate for a large transaction. Rate locked for 24 hours.,Worried,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Kevin. ¿En qué puedo ayudarte hoy?
+
+Cliente (dueño de negocio):
+Hola, necesito hacer un pago grande a un proveedor en Europa. ¿Cuál es la tasa de cambio actual para el Euro?
+
+Agente:
+Claro. ¿Puedes confirmarme el nombre del negocio y los últimos cuatro dígitos de tu cuenta?
+
+Cliente:
+Es Global Supplies LLC, y los últimos cuatro son 3456.
+
+Agente:
+Gracias. La tasa de cambio actual para USD a EUR es de 1 USD = 0.92 EUR. ¿Cuánto deseas transferir?
+
+Cliente:
+$10,000. ¿Cuánto recibirán en Euros?
+
+Agente:
+A esa tasa, recibirán aproximadamente 9,200 EUR, menos cualquier tarifa de transferencia. ¿Quieres proceder o bloquear la tasa por 24 horas?
+
+Cliente:
+Bloquéala, por favor.
+
+Agente:
+De acuerdo. La tasa se ha bloqueado y recibirás un correo de confirmación. Tienes 24 horas para completar la transacción."
+Scenario 45,Fraud,Customer reports a $500 unauthorized withdrawal despite a stop payment order. Fraud review initiated.,Inquisitive,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Sarah. ¿En qué puedo ayudarte hoy?
+
+Cliente (preocupado):
+Hola, llamé hace unos días para detener un cheque perdido, pero veo un retiro de $500 que no hice.
+
+Agente:
+Lamento mucho escuchar eso. ¿Puedes confirmarme tu nombre completo y los últimos cuatro dígitos de tu cuenta?
+
+Cliente:
+Soy Emily Ross, y los últimos cuatro son 5678.
+
+Agente:
+Gracias, Emily. Veo el retiro de $500 con el cheque número 105. Ese cheque estaba incluido en la orden de detención. No debería haberse procesado.
+
+Cliente:
+¿Y ahora qué pasa?
+
+Agente:
+Voy a iniciar una investigación para determinar cómo se procesó el cheque. Mientras tanto, puedo poner una retención temporal en tu cuenta y emitir un reembolso provisional mientras se completa la investigación.
+
+Cliente:
+¿Y cuánto tardará esto?
+
+Agente:
+El proceso puede tardar hasta 10 días hábiles. Si se confirma que el cheque fue procesado por error, el reembolso será permanente.
+
+Cliente:
+De acuerdo. Gracias por tu ayuda.
+
+Agente:
+De nada, Emily. Mantente atenta a tu correo electrónico para recibir actualizaciones."
+Scenario 46,Account Management,Customer updates the beneficiary address for their savings account. Confirmation email sent.,Frustrated,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Rachel. ¿En qué puedo ayudarte hoy?
+
+Cliente:
+Hola, necesito actualizar la dirección del beneficiario en mi cuenta de ahorros.
+
+Agente:
+Claro. ¿Puedes confirmarme tu nombre completo y los últimos cuatro dígitos de tu cuenta?
+
+Cliente:
+Soy David King, y los últimos cuatro son 1234.
+
+Agente:
+Gracias, David. ¿Quieres actualizar la dirección existente o agregar un nuevo beneficiario?
+
+Cliente:
+Solo quiero actualizar la dirección de mi hijo.
+
+Agente:
+Perfecto. ¿Cuál es la nueva dirección?
+
+Cliente:
+789 Maple Street, Columbus, OH 43215.
+
+Agente:
+Gracias. La dirección del beneficiario ha sido actualizada. ¿Te gustaría recibir una confirmación por correo electrónico?
+
+Cliente:
+Sí, envíala a d.king@email.com.
+
+Agente:
+Listo. La confirmación llegará en 10 minutos."
+Scenario 47,Account Management,Customer requests assistance setting up automatic bill payments for utilities. Schedule confirmed.,Neutral,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Kevin. ¿En qué puedo ayudarte hoy?
+
+Cliente:
+Hola, quiero configurar pagos automáticos para mis facturas de electricidad y agua.
+
+Agente:
+Perfecto. ¿Quieres hacerlo a través de tu cuenta corriente o tarjeta de crédito?
+
+Cliente:
+A través de mi cuenta corriente.
+
+Agente:
+De acuerdo. ¿Puedes confirmarme tu nombre completo y los últimos cuatro dígitos de tu cuenta?
+
+Cliente:
+Soy Michael Chen, y los últimos cuatro son 7890.
+
+Agente:
+Gracias, Michael. Primero, ingresa al portal de banca en línea y selecciona la opción Pagos Automáticos.
+
+    Agrega a Electricidad ABC como nuevo beneficiario.
+
+    Ingresa el monto mensual y la fecha de pago.
+
+    Repite los pasos para Agua XYZ.
+
+¿Quieres que te envíe una guía paso a paso por correo electrónico?
+
+Cliente:
+Sí, por favor.
+
+Agente:
+La recibirás en 5 minutos."
+Scenario 48,Fraud,Customer follows up on a previous report of a lost checkbook. Unauthorized transaction investigated.,Hopeful,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Sarah. ¿En qué puedo ayudarte hoy?
+
+Cliente (preocupado):
+Hola, llamé hace una semana para reportar la pérdida de mi chequera, pero veo un retiro de $500 que no reconozco.
+
+Agente:
+Lamento escuchar eso. ¿Puedes confirmarme tu nombre completo y los últimos cuatro dígitos de tu cuenta?
+
+Cliente:
+Soy Emily Ross, y los últimos cuatro son 5678.
+
+Agente:
+Gracias, Emily. Veo el retiro de $500 con el cheque número 105, que estaba en la chequera reportada como perdida. Iniciaremos una investigación inmediata.
+
+Cliente:
+¿Y cuánto tiempo tomará?
+
+Agente:
+La investigación puede tardar hasta 10 días hábiles. Mientras tanto, emitiremos un reembolso provisional por el monto retirado. Si se confirma que el cheque fue procesado de forma indebida, el reembolso será permanente.
+
+Cliente:
+Gracias. ¿Me mantendrán informada?
+
+Agente:
+Sí, recibirás actualizaciones por correo electrónico y mensaje de texto."
+Scenario 49,Loans,Customer confirms the updated loan payoff amount before proceeding with payment.,Neutral,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Tom. ¿En qué puedo ayudarte hoy?
+
+Cliente:
+Hola, llamé la semana pasada para saber cuánto debía para liquidar mi préstamo. ¿Puedes confirmarme si el monto sigue siendo el mismo?
+
+Agente:
+Por supuesto. ¿Puedes confirmarme tu nombre completo y el número de tu cuenta de préstamo?
+
+Cliente:
+Soy Sarah Kim, y el número es 456789.
+
+Agente:
+Gracias, Sarah. El monto de liquidación que te proporcioné la semana pasada era de $5,250.45. Hoy es 20 de mayo, así que el nuevo monto es de $5,262.10, debido a los intereses acumulados.
+
+Cliente:
+Y si pago mañana, ¿cambiará el monto?
+
+Agente:
+Sí, se agregará un interés diario de $2.50. ¿Quieres que te envíe un recordatorio por mensaje de texto con el monto actualizado mañana por la mañana?
+
+Cliente:
+Sí, eso estaría bien.
+
+Agente:
+Listo. Recibirás el mensaje mañana a las 9 AM."
+Scenario 50,Account Management,Customer requests to set up recurring transfers from checking to savings. Schedule established and confirmed.,Inquisitive,"Agente:
+Gracias por llamar a Not-a-real Bank. Mi nombre es Amanda. ¿En qué puedo ayudarte hoy?
+
+Cliente:
+Hola, quiero configurar transferencias automáticas mensuales de mi cuenta corriente a mi cuenta de ahorros.
+
+Agente:
+Por supuesto. ¿Quieres transferir un monto fijo o un porcentaje de tu ingreso?
+
+Cliente:
+Un monto fijo de $200 el primer día de cada mes.
+
+Agente:
+Perfecto. ¿Puedes confirmarme tu nombre completo y los últimos cuatro dígitos de tu cuenta corriente?
+
+Cliente:
+Soy Michael Chen, y los últimos cuatro son 7890.
+
+Agente:
+Gracias, Michael. Primero, ingresa al portal de banca en línea y sigue estos pasos:
+
+    Haz clic en Transferencias Recurrentes.
+
+    Selecciona tu cuenta corriente como cuenta de origen y tu cuenta de ahorros como destino.
+
+    Ingresa el monto de $200 y selecciona la frecuencia mensual.
+
+    Elige el primer día de cada mes como la fecha de transferencia.
+
+Cliente:
+Ya lo hice. ¿Ahora qué?
+
+Agente:
+¡Perfecto! Ahora recibirás una confirmación por correo electrónico cada vez que se realice la transferencia.
+
+Cliente:
+¿Y puedo cambiar el monto en cualquier momento?
+
+Agente:
+Sí, solo ingresa al portal de banca en línea y selecciona la transferencia recurrente que deseas modificar.
+
+Cliente:
+Perfecto. Gracias por tu ayuda.
+
+Agente:
+De nada, Michael. Si necesitas algo más, estamos aquí para ayudarte."
